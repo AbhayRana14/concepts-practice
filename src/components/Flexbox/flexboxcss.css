@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    background-color: cyan;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+section div{
+    flex-basis: 30%;
+    padding: 20px;
+    border: 1px dashed black;
+}
+.flex1{
+    /* flex: 1; */
+    background-color: red;
+}
+.flex2{
+    /* flex: 1; */
+    background-color: yellow;
+    width: 30%;
+}
+.flex3{
+    /* flex: 1; */
+    background-color: green;
+}
+@media(min-width: 768px){
+    section{
+        background-color: cyan;
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -1,5 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Main from './components/AdvancedCSS/Main';
+//import FlexBox from './components/Flexbox/FlexBox';
 //import Nav from './components/Router/nav';
 //import { BrowserRouter, Route } from 'react-router-dom'
 //import Home from './components/Router/home';
@@ -7,7 +9,7 @@ import ReactDOM from 'react-dom';
 //import Index from './components/Router/index';
 //import Login from './components/Router/login';
 //import Grids from './components/Grids/Grids';
-import Grids2 from './components/Grids2/Grids2';
+//import Grids2 from './components/Grids2/Grids2';
 //import App from './App';
 //import CompA from './components/useContext/CompA';
 //import GitAppMain from './components/GitApp/GitAppMain';
@@ -32,7 +34,7 @@ ReactDOM.render(
             <Login/>
           </Route>
         </BrowserRouter> */}
-        <Grids2/>
+        <Main/>
   </React.StrictMode>,
   document.getElementById('root')
 );
