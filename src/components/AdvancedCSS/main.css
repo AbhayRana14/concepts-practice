@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+.parent-div{
+    background-color: indianred;
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+
+
+
+
+    display: grid;
+    place-items: center;
+}
+.child-div{
+
+    /* 1ST WAY OF CENTER */
+    background-color: lawngreen;
+    height: 520px;
+    width: 520px;
+    /*position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%); */
+
+
+
+    
+}
