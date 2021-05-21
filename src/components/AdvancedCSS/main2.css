@@ -12,28 +12,21 @@
     background-color: #485460;
     height: 100vh;
     width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 h1{
     color: #fff;
-    text-shadow: 0 10px 5px black;
-    position: relative;
+    font-size: 5rem;
 }
-h1::before{
-    position: absolute;
-    content: "";
-    top: -10%;
-    left: 50%;
-    width: var(--b-a-width);
-    border-bottom: 5px solid #2c3e;
-}
+
 h1::after{
-    position: absolute;
-    content: "";
+    content: "\f005";
+    font-family: "Font Awesome 5 Free";
     width: var(--b-a-width);
+    height: 25px;
     left: 0%;
+    display: block;
+    margin: 0 auto;
     bottom: -15%;
     border-bottom: 5px solid #2c3e;
 }
@@ -42,6 +35,7 @@ h1::after{
 
     font-size: large;
     font-weight: 100;
+   
 /* width: 30%;
 height: 90%;
 background-image: 
@@ -60,4 +54,22 @@ box-shadow: 0 10px 20px -6px white; */
           url(https://images.pexels.com/photos/3196041/pexels-photo-3196041.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
         } */
 
+}
+a{
+    transition: all 0.3 linear;
+    text-decoration: none;
+    font-size: 5rem;
+}
+a:link{
+    color: whitesmoke;
+}
+a:hover{
+    color: yellowgreen;
+    background: whitesmoke;
+}
+a:active{
+    color: black;
+}
+a:visited{
+    color: red;
 }
