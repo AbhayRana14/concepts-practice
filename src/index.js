@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import CenterElements from './components/AdvancedCSS/centerElements';
 import FlexboxCSS from './components/AdvancedCSS/flexboxCSS';
 import Main from './components/AdvancedCSS/Main';
 //import FlexBox from './components/Flexbox/FlexBox';
@@ -35,8 +36,7 @@ ReactDOM.render(
             <Login/>
           </Route>
         </BrowserRouter> */}
-        {/* <Main/> */}
-        <FlexboxCSS/>
+        <CenterElements/>
   </React.StrictMode>,
   document.getElementById('root')
 );
